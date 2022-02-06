@@ -29,15 +29,9 @@ Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliog
 *   **Proteomic and bioinformatics profile of paired human alveolar macrophages and peripheral blood monocytes**. _Proteomics_, 2015 ([PubMed](\))
 *   **How do oncoprotein mutations rewire protein–protein interaction networks?** _Expert Review Proteomics,_ **2015** ([pdf](data/uploads/bowler-et-al-expert-review-proteomics.pdf))
 *   **A protein interaction between Beta-catenin and Dnmt1 regulates Wnt Signaling and DNA methylation in colorectal cancer cells**. _Molecular Cancer Research_, **2015** ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/25753001))
-
 *   **The Wnt Signaling Network in Cancer**. _In Systems Biology of Cancer._ Cambridge University Press (2015) ([link to book](http://www.cambridge.org/gb/academic/subjects/life-sciences/genomics-bioinformatics-and-systems-biology/systems-biology-cancer?format=HB))
-
 *   **Alternate wiring of a KNOXI genetic network underlies differences in leaf development of A. thaliana and C. hirsuta.** _Genes & development_. 2015 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26588991))
-
 *   **Regulation of protein stability of DNA methyltransferase 1 by post-translational modifications**. _Acta Biochim Biophys Sin_, 2014 (PubMed)
-
 *   **Integrated analysis of the Wnt responsive proteome in human cells reveals diverse and cell-type specific networks**. Mol Biosyst. 2014 (PubMed)
-
 *   **The CRAPome: a contaminant repository for affinity purification-mass spectrometry data**. Nat Methods. 2013 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23921808))
-
 *   **Gain of interaction with IRS1 by p110α-helical domain mutants is crucial for their oncogenic functions**. Cancer Cell. 2013 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23643389))
