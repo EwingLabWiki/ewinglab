@@ -1,7 +1,7 @@
 ---
 layout: page
-title:
-subtitle: Home
+title: Home
+subtitle: Scientific interests and publications
 ---
 
 
