@@ -44,9 +44,3 @@ subtitle: People
 
 **Tim Yang** (2008) \[[Summer on the Cuyahoga](http://www.summeronthecuyahoga.com/) program student\]. Developed metrics for assessing the confidence of protein-protein interactions. **Current position**: Ph.D candidate, Operations Research, University of California, Berkeley.
 
-
-More info
----------
-
-*   [Rob Ewing's Southampton pages](http://www.southampton.ac.uk/biosci/about/staff/rme1a11.page)
-*   [EwingLab Zotero Group reading lists](http://www.zotero.org/groups/ewinglab)
