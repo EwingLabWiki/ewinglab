@@ -35,3 +35,11 @@ Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliog
 *   **Integrated analysis of the Wnt responsive proteome in human cells reveals diverse and cell-type specific networks**. Mol Biosyst. 2014 (PubMed)
 *   **The CRAPome: a contaminant repository for affinity purification-mass spectrometry data**. Nat Methods. 2013 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23921808))
 *   **Gain of interaction with IRS1 by p110α-helical domain mutants is crucial for their oncogenic functions**. Cancer Cell. 2013 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23643389))
+
+
+
+More info
+---------
+
+*   [Rob Ewing's Southampton pages](http://www.southampton.ac.uk/biosci/about/staff/rme1a11.page)
+*   [EwingLab Zotero Group reading lists](http://www.zotero.org/groups/ewinglab)
