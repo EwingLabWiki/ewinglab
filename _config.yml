@@ -64,8 +64,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
   ORCID: 0000-0001-6510-4001
-  google-scholar: zTWOi8cAAAAJ
-# https://scholar.google.co.uk/citations?user=zTWOi8cAAAAJ&hl=en
+  google-scholar: https://scholar.google.co.uk/citations?user=zTWOi8cAAAAJ&hl=en
 #  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
