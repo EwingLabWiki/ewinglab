@@ -26,7 +26,7 @@ Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliog
 *   **Proteomics and network analyses reveal inhibition of Akt-mTOR signaling by M. tuberculosis Mannose-capped Lipoarabinomannan,** _Proteomics_, **2017** ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/28994205))
 *   **Noise-processing by signaling networks.** _Scientific Reports,_ 2017 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/28373704))
 *   **Single-cell pluripotency regulatory networks.** _Proteomics_, 2016 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27357612))
-*   **Proteomic and bioinformatics profile of paired human alveolar macrophages and peripheral blood monocytes**. _Proteomics_, 2015 ([PubMed](\))
+*   **Proteomic and bioinformatics profile of paired human alveolar macrophages and peripheral blood monocytes**. _Proteomics_, 2015 ([PubMed])
 *   **How do oncoprotein mutations rewire protein–protein interaction networks?** _Expert Review Proteomics,_ **2015** ([pdf](data/uploads/bowler-et-al-expert-review-proteomics.pdf))
 *   **A protein interaction between Beta-catenin and Dnmt1 regulates Wnt Signaling and DNA methylation in colorectal cancer cells**. _Molecular Cancer Research_, **2015** ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed/25753001))
 *   **The Wnt Signaling Network in Cancer**. _In Systems Biology of Cancer._ Cambridge University Press (2015) ([link to book](http://www.cambridge.org/gb/academic/subjects/life-sciences/genomics-bioinformatics-and-systems-biology/systems-biology-cancer?format=HB))
