@@ -1,10 +1,10 @@
 ---
 layout: page
-title:
+title: People
 subtitle:
 ---
 
-## **People**
+
 
 ![Rob Ewing](http://www.ewinglab.org/data/uploads/ewinglab-tree-collage.png)
 
