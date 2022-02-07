@@ -1,11 +1,8 @@
 ---
 layout: page
-title:
+title: Home
 subtitle: 
 ---
-
-
-## **Scientific interests and publications**
 
 Living systems rely on complex networks of interacting molecules to carry out all basic biological processes. Our goal is to identify interactions between proteins and map protein interaction networks that contribute to human diseases such as colorectal cancer and lung fibrosis. We apply proteomic as well as data-science techniques to define these protein interaction networks and uncover the molecular mechanisms that lead to disease. We are especially interested in defining protein interaction networks that govern oncogenic signalling pathways such as the Wnt signalling pathway, and understanding how these signalling pathways cross-talk with other oncogenic processes such as DNA methylation.
 
