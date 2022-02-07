@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ------------
+title: Our research
 ---
 
-## **What do we study?**
+
 
 Our laboratory studies protein-protein interactions and the networks that these interactions function within. Protein-protein interactions are often altered in disease through mutation, disrupting the underlying networks. Our interest is to understand how mutations in cancer disrupt protein interaction networks. We study the networks of interacting proteins that carry out fundamental cellular processes such as signal transduction. We are interested in 'mapping' these interactions in cancer cells, to understand how cancer subverts normal cellular functions. A particular interest is the Wnt signaling pathway, an important signal transduction pathway during animal development and in cancer.
 
