@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ..........
+title:       
 subtitle: Contact us
 ---
 Dr Rob Ewing  
