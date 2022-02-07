@@ -1,10 +1,8 @@
 ---
 layout: page
-title:    
+title: Contact    
 subtitle:
 ---
-
-## **Contact Us**
 
 Dr Rob Ewing  
 Associate Professor in Proteomics & Systems Biology  
