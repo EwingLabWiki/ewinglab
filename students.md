@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ------------
 ---
 
 ## **What do we study?**
