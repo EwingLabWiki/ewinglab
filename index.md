@@ -4,7 +4,7 @@ title: Home
 subtitle: 
 ---
 
-We work in the area of cancer systems biology. Our goal is to understand the molecular networks that drive tumour formation in cancers such as colorectal, lung and brain. We apply multi-omics and data-driven/bioinformatics approaches to define these networks and to uncover the molecular mechanisms that underlie human disease.
+We work in the area of cancer systems biology. Our goal is to understand the molecular networks that drive tumour formation in cancers such as colorectal, lung and brain. We apply multi-omics and data-driven/bioinformatics approaches to define these networks and to uncover the molecular mechanisms that underlie human disease. Specific and current interests include identifying new components of the Wnt signaling network in colorectal cancer, and mapping the interactions between the Zika virus and human brain tumour cells with a view to using Zika as an oncolytic virotherapy.
 
 Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliography/public/)
 
