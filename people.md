@@ -13,6 +13,8 @@ subtitle:
 
 ### Lab alumni (University of Southampton)
 
+**Ben Draper** (2018-2021) MSci and summer intern student working on large-scale analysis of gene dependency data in colorectal cancer
+
 **Ben Ward** (2020-2021) MRes student working on mechanisms of Zika-induced oncolysis in brain tumours
 
 **James Coburn** (2020-2021) MRes student working on meta-analysis of COVID-related gene-expression
