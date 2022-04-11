@@ -13,6 +13,12 @@ subtitle:
 
 ### Lab alumni (University of Southampton)
 
+**Ben Ward** (2020-2021) MRes student working on mechanisms of Zika-induced oncolysis in brain tumours
+
+**James Coburn** (2020-2021) MRes student working on meta-analysis of COVID-related gene-expression
+
+**Joe Bell** (2017-2021) Ph.D student working on signalling and protein-protein interactions in idiopathic pulmonary fibrosis
+
 **Emily Bowler** (2014-2018) Ph.D student working on mapping oncoprotein interaction networks
 
 **Francisco Martinez Garcia** (2016-2017) Advanced MRes student studying Wnt signaling networks in colorectal cancer
