@@ -21,6 +21,8 @@ subtitle:
 
 **Joe Bell** (2017-2021) Ph.D student working on signalling and protein-protein interactions in idiopathic pulmonary fibrosis
 
+**Harry Leafe** (2019-2020) MRes student working on machine-learning approaches to reconstruct Wnt signaling network
+
 **Emily Bowler** (2014-2018) Ph.D student working on mapping oncoprotein interaction networks
 
 **Francisco Martinez Garcia** (2016-2017) Advanced MRes student studying Wnt signaling networks in colorectal cancer
