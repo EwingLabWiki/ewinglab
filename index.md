@@ -10,8 +10,9 @@ Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliog
 
 **Selected / recent publications**
 
-*   **TransformerGO: Predicting protein-protein interactions by modelling the attention between sets of gene ontology terms** _Bioinformatics_, 2022 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/35176146)). 
+*   **TransformerGO: Predicting protein-protein interactions by modelling the attention between sets of gene ontology terms** _Bioinformatics_, 2022 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/35176146))
 *   **Proteomic characterization of GSK3β knockout shows altered cell adhesion and metabolic pathway utilisation in colorectal cancer cells** _PLOS ONE_, 2021 ([full text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246707))
+*    **3-month, 6-month, 9-month, and 12-month respiratory outcomes in patients following COVID-19-related hospitalisation: a prospective study** _Lancet Respir Med_, 2021 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/33964245))
 *   **The USP7 protein interaction network and its roles in tumorigenesis** _Genes & Diseases_, 2020 ([full text](https://www.sciencedirect.com/science/article/pii/S235230422030129X))
 *   **Editorial: Integrated Omics For Defining Interactomes** _Frontiers in Physiology_, 2020 ([full text](https://www.frontiersin.org/research-topics/8188/integrated-omics-for-defining-interactomes))
 *   **An evaluation of different classification algorithms for protein sequence-based reverse vaccinology prediction**. _PLoS One_. 2019 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31834914))
