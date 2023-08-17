@@ -4,8 +4,8 @@ title: Contact
 subtitle:
 ---
 
-Dr Rob Ewing  
-Associate Professor in Proteomics & Systems Biology  
+Professor Rob Ewing  
+Professor in Proteomics & Cancer Systems Biology  
 Biological Sciences | University of Southampton  
 p: +44 (0)2380 594401
 
@@ -33,15 +33,6 @@ For **international students**, we have experience of these country-specific pro
 
 *   **Mexico (**[CONACYT](http://www.conacyt.gob.mx))
 
-### **UNDERGRADUATE APPOINTMENTS**
-
-1\. Pick a date/time from slots on calendar below
-
-2\. E-mail me indicating the subject of the tutorial and the time you will be coming (and also let me know if you need to cancel the appointment). **You will get more out of your tutorial if you prepare in advance - come with specifics in mind!**
-
-3\. Come directly to B85/6053 or to B85 / 6th floor lobby at appointed time (if unable to access the office area, call me on 02380 594401)
-
-Published on  September 24th, 2019
 
 More info
 ---------
