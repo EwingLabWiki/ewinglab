@@ -1,0 +1,225 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">ReadMes</a>
+    <ul>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I (DNMT1) interactions</a></li>
+    <li><a href="ms-study-7.html">DNMT1 mutant vs wild-type comparison</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="label-free-studies.html">Label-free quantification</a></li>
+    <li><a href="label-free-using-Scaffold.html">Label-free quant using Scaffold 1</a></li>
+    <li><a href="label-free-using-Scaffold-2.html">Label-free quant using Scaffold 2</a></li>
+    </ul>
+    </li>
+
+
+    <li><a href="#">Transcriptomics case studies</a>
+    <ul>
+    <li><a href="geo-case-studies.html">Gene Expression Omnibus (GEO) case studies</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3><strong>Study Synopsis</strong></h3>
+
+<p>DNA methyltransferase I (<a class="urllink" href="http://www.genecards.org/cgi-bin/carddisp.pl?gene=DNMT1" rel="nofollow">DNMT1</a>) plays a key role in establishing and maintaining patterns of DNA methylation. Dysregulation of DNA methylation is associated with different kinds of cancer. The goal of this work was to compare the proteomes of cells with a hypomorphic mutation of DNMT1 to those that had normal DNMT1 (The hypomorphic DNMT1 mutation encodes a DNMT1 protein with a truncated N-terminus, and it is expressed at lower levels).</p> 
+
+
+<p class="vspace">Shotgun mass-spectrometry proteomics was used to profile proteins in the nuclei of HCT116 (a colorectal cancer cell line) that either had normal, full-length DNMT1 or had the hypomorhic allele of DNMT1</p>
+
+<p class="vspace">The main finding of this study (<a class="urllink" href="https://www.ncbi.nlm.nih.gov/pubmed/31448663" rel="nofollow">Link to PubMed</a>) was that proteins involved in the Epithelial-Mesenchymal transition (a key process in tumour metastasis) are increased in expression in the DNMT1 hypomorphic cells, suggesting that DNMT1 has a role in regulating the Epithelial-Mesenchymal transition.</p>
+
+
+<h3><strong>Tasks & Questions</strong></h3>
+
+
+<ul>
+  <li>Search the HCT116 wild-type and the hypomorph MS/MS spectra using the Mascot (or Tandem on command line) search engine against the human database. There are 3 replicate samples for each type of cell</li>
+  <li>Compare the sets of proteins identified for the wild-type and hypomorph samples using GOrilla</li> 
+  <li>Are there any proteins linked to Epithelial-Mesenchymal transition that are expressed differently in the wild-type and hypomorph cells (Hint: Look for Vimentin)</li>
+</ul>
+
+
+<p></p>
+
+<h3><strong>Data</strong></h3>     
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>MS/MS data Files (peak lists)</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Search engine settings</strong></p>
+	</td>
+
+
+      </tr>
+    <tr>
+      <td valign="top">
+
+	<p><strong>Raw Data</strong></p>
+
+	<p>(Note that condensed MGF files are provided here, since the complete files are very large)</p>
+	<ul>
+	  <li><a class="urllink" href="data/DNMTKO_1_Bowler-2019.mgf">MS/MS spectra from DNMT1 hypomorph cells, replicate 1</a></li>
+	  <li><a class="urllink" href="data/DNMTKO_2_Bowler-2019.mgf">MS/MS spectra from DNMT1 hypomorph cells, replicate 2</a></li>
+	  <li><a class="urllink" href="data/DNMTKO_2_Bowler-2019.mgf">MS/MS spectra from DNMT1 hypomorph cells, replicate 3</a></li>
+	  <li><a class="urllink" href="data/HCT116_1_Bowler-2019.mgf">MS/MS spectra from HCT116 wild-type cells, replicate 1</a></li>
+	  <li><a class="urllink" href="data/HCT116_2_Bowler-2019.mgf">MS/MS spectra from HCT116 wild-type cells, replicate 2</a></li>
+	  <li><a class="urllink" href="data/HCT116_3_Bowler-2019.mgf">MS/MS spectra from HCT116 wild-type cells, replicate 3</a></li>
+	</ul>
+
+	<p><strong>Searched/Quantification Results</strong></p>
+
+	<ul>
+	  <li><a class="urllink" href="data/Dnmt1-WT-hypermorph-nucear-proteome-results.xlsx">Summarised protein quantification data</a></li>
+	</ul>
+	
+	</td>
+      <td valign="top">
+	<p>Taxonomy: <em>Homo sapiens</em></p>
+	</td>
+   
+
+      </tr>
+    </tbody>
+</table>
+
+<h3><strong>References</strong></h3>
+<p>Bowler et al. Deep proteomic analysis of Dnmt1 mutant/hypomorphic colorectal cancer cells reveals dys-regulation of Epithelial-Mesenchymal Transition and subcellular relocalization of Beta-Catenin. Epigenetics. 2019 Aug 26:1-15 (<a class="urllink" href="https://www.ncbi.nlm.nih.gov/pubmed/31448663" rel="nofollow">PubMed</a>)</p>
+
+
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

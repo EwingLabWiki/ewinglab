@@ -1,0 +1,137 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">Proteomic data analysis guides</a>
+    <ul>
+
+    <li><a href="ms-data-and-file-formats.html">MS raw data file formats</a></li>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I interactions</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="ms-study-2.html">Tyranosaurus rex proteins!</a></li>
+
+    
+    </ul>
+    </li>
+ 
+
+
+
+    <li><a href="#">Transcriptomic data analysis</a>
+    <ul>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+<h3>Mass-spectrometry peak list files</h3>
+
+<p>Mass-spectra data in this tutorial is provided in the form of peak list files. Two peak list formats are commonly used, DTA, and MGF.  Both DTA and MGF are simple text based formats containing the mass spectra that will be used by the search engine to identify peptides and proteins. 
+
+<h4>DTA format</h4>
+
+In DTA format, each spectrum begins with the parent mass and charge and is followed by a series of pairs of numbers (fragment ion masses and their intensity).
+
+<p style="font-family:courier;">
+<br>[Intact peptide mass] [Peptide charge]
+<br>[Peptide fragment ion mass] [intensity]
+<br>...
+<br>[Space]
+<br>[Intact peptide mass] [Peptide charge]
+<br>[Peptide fragment ion mass] [abundance]
+</p>
+
+
+<p>Click <a class="urllink" href="data/example.dta" rel="nofollow">here</a> for an example <b>DTA</b> file. 
+
+<h4>MGF format</h4>
+
+In MGF format, each spectrum is recorded between "BEGIN IONS" and "END IONS". 
+
+<p style="font-family:courier;">
+<br>BEGIN IONS
+<br>PEPMASS=[precursor mass]
+<br>CHARGE=2+
+<br>TITLE=Spectrum1
+<br>[fragment mass] [fragment intensity]
+<br> ...
+<br>END IONS
+</p>
+
+<p>Click <a class="urllink" href="data/example.mgf" rel="nofollow">here</a> for an example <b>MGF</b> file. 
+
+
+<p>A more comprehensive description of these file formats is available <a href="http://www.matrixscience.com/help/data_file_help.html">here</a>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

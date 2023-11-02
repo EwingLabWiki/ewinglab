@@ -1,0 +1,201 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">Proteomic data analysis guides</a>
+    <ul>
+
+    
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I interactions</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+   
+
+    
+    </ul>
+    </li>
+ 
+
+
+
+    <li><a href="#">Transcriptomic data analysis</a>
+    <ul>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3><strong>Study Synopsis</strong></h3>
+
+<p class="vspace">This study used shotgun proteomics to study the proteomes of mouse embryonic stem cell sub-cellular compartments. Whole embryonic stem cell lysates were fractionated into nuclear and cytoplasmic components using low-speed centrifugation. We then used 1-Dimensional gel-based fractionation to separate the nuclear and cytoplasmic samples into 5 fractions each (Song et al, 2012). The data provided here correspond to one each of these fractions for the nuclear (Nuc) sample and the cytoplasmic (Cyto) samples.</p>
+
+<h3><strong>Tasks & Questions</strong></h3>
+
+
+<ul>
+  <li>Search the Nuclear and Cytosolic MS/MS spectra using Tandem search engine</li>
+  <li>Compare the sets of proteins identified for the Nuclear and Cytosolic samples using GOrilla 
+  <li>Do the identified Gene Ontology terms suggest enrichment of Nuclear and Cytosolic proteins in the Nuc and Cyto samples?
+</ul>
+
+
+<p></p>
+
+<h3><strong>Data</strong></h3>     
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>MS/MS data Files (peak lists)</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Search engine settings</strong></p>
+	</td>
+
+
+      </tr>
+    <tr>
+      <td valign="top">
+
+	<p><strong>Raw Data</strong></p>
+
+	<ul>
+	  <li><ahref="data/ESC_Nuc_fraction.mgf">MS/MS spectra from nuclear fraction</a></li>
+	  <li><a href="data/ESC_Cyto_fraction.mgf">MS/MS spectra from cytoplasmic fraction</a></li>
+	  </ul>
+
+	<p><strong>Search Results</strong></p>
+	<ul>
+
+	  <li><a class="urllink" href="data/protein-lists-tandem-search/ESC_Nuc_fraction.csv">Identified proteins from nuclear fraction</a></li>
+	  <li><a class="urllink" href="data/protein-lists-tandem-search/ESC_Cyto_fraction.csv">Identified proteins from cytoplasmic fraction</a></li>
+
+	</ul>
+
+	</td>
+      <td valign="top">
+	<p>Taxonomy: <em>Mus musculus</em></p>
+	</td>
+   
+
+      </tr>
+    </tbody>
+</table>
+
+<h3><strong>References</strong></h3>
+<p>Song J, Saha S, Gokulrangan G, Tesar PJ, Ewing RM. DNA and chromatin modification networks distinguish stem cell pluripotent ground states. Molecular & cellular proteomics : MCP. 2012; 11(10):1036-47 (<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/22822199" rel="nofollow">PubMed</a>).</p>
+
+
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

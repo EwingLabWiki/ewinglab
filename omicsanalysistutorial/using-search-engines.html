@@ -1,0 +1,270 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">ReadMes</a>
+    <ul>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I (DNMT1) interactions</a></li>
+    <li><a href="ms-study-7.html">DNMT1 mutant vs wild-type comparison</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="label-free-studies.html">Label-free quantification</a></li>
+    <li><a href="label-free-using-Scaffold.html">Label-free quant using Scaffold 1</a></li>
+    <li><a href="label-free-using-Scaffold-2.html">Label-free quant using Scaffold 2</a></li>
+    </ul>
+    </li>
+
+
+    <li><a href="#">Transcriptomics case studies</a>
+    <ul>
+    <li><a href="geo-case-studies.html">Gene Expression Omnibus (GEO) case studies</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Mass-Spectrometry Search Engines</h3>
+
+<p>Mass-spectra are matched to peptides so that proteins can be identified using a search engine. In this tutorial we will use a command-line version of the Tandem search engine to match mass-spectra to protein sequences. There are also some online web-based search-engines such as <a href="http://www.matrixscience.com" target="_blank">Mascot</a> however the online version of Mascot has a limit on the number of spectra that may be searched.</p>
+
+<p>Search engines work by predicting the possible peptide fragments that would be created after protein digestion by a specific enzyme. For example, Trypsin will always cleave a protein after an arginine or lysine unless followed by a proline. The search engine compares the unknown peptide fragment with the predicted fragments from the protein sequence database to generate a list of potential protein candidates. A scoring method is used to identify the best match.</p>
+
+<h3>Using the Mascot Search Engine</h3>
+<table>
+<tr>
+<td><p><a href="http://www.matrixscience.com/cgi/search_form.pl?FORMVER=2&amp;SEARCH=MIS"><img align="left" alt="" height="200" src="images/matrix.png" width="275" /></a></p>
+</td>
+<td>
+<ul>
+  <li>In the <strong>Data file</strong> field, click <strong>Browse</strong> and navigate to file of interest.</li>
+  <li>In the <strong>Database</strong> dropdown list, select the appropriate database.</li>
+  <li>In the <strong>Data format </strong>dropdown list, select the appropriate file format.</li>
+  <li>Click <strong>Start Search.</strong></li>
+  <li>Note that the online free version of Mascot will only process up to 1200 spectra (i.e. very small mass-spectrometry files)</li>
+</ul>
+</td>
+</tr>
+</table>
+
+
+<h3>Using the GPM Search Engine (tandem) via linux command line</h3>
+<table>
+<tr>
+<td></td>
+
+<td>
+
+<ul>
+<li>(Requires access to linux server with tandem programme installed)
+<li>Login to iridis5_a.soton.ac.uk</a>
+<li>Download <a href="data/tandem-linux-workshop.zip">this zip file </a>to your directory on iridis5_a.soton.ac.uk
+<ul>
+<li>Unzip the file: <pre>unzip tandem-linux-workshop.zip</pre>
+<li>This will create a directory: <pre>tandem-linux-workshop/</pre>
+<li>cd to the directory: <pre>tandem-linux-workshop/bin/</pre>
+<li>Run: <pre>module load tandem </pre>
+<li>Test that tandem runs by running: <pre>tandem.exe input.xml</pre>
+</ul>
+<li>You'll see several xml files in the bin directory; for the purposes of this tutorial you do not need to edit these
+<li>Take a look at the default_input.xml file (this is where the parameters for ther tandem programme are set)
+<li>To search your mass-spectra data:
+<ul>
+<li>copy your mass-spectra (DTA or MGF) file to this directory: <pre>tandem-linux-workshop/bin/</pre>
+<li>rename your mass-spectra file to: <pre>test_spectra</pre>
+<li>search the file against human sequence database by running: <pre>tandem input-human.xml</pre>
+<li>search the file against human sequence database by running: <pre>tandem input-mouse.xml</pre>
+<li>once the search has completed, you'll find a file in the same directory called <pre>output*.xml</pre> (where * is a time/date stamp)
+<li>this output file has all of the search results
+</ul>
+<li>The output*xml files contain lots of information about the peptides and proteins that have been identified
+<li>Here's some code to extract the proteins identified and their expect values (the statistical significance of the match):
+<ul>
+<li><pre>awk 'BEGIN{OFS=","} /^&lt;protein/ {print $5,$2}' output.*.xml | sed 's/\(expect=\|label=\|\"\| \)//g;' | sort -t , -k 2,2n</pre>
+</ul>
+<li>The expect values are actually log(expect) - so the large more negative numbers indicate a more significant p-value
+
+</ul>
+</td>
+</tr>
+
+
+
+</table>
+
+<h3>Using the GPM Search Engine (tandem) on windows</h3>
+<table>
+
+
+
+<tr>
+<td>
+<ul>
+<li>Download <a href="data/tandem-windows-workshop.zip">this zip file </a>to a local desktop on your Windows PC
+<li>Unzip the file: <pre>tandem-windows-workshop.zip</pre>
+<li>Start the cmd programme on windows and navigate to the directory: <pre>tandem-windows-workshop/bin/</pre>
+<li>Run tandem: <pre>tandem.exe input.xml</pre>
+</ul>
+<li>You'll see several xml files in the bin directory; for the purposes of this tutorial you do not need to edit these
+<li>Using notepad take a look at the default_input.xml file (this is where the parameters for ther tandem programme are set)
+<li>To search your mass-spectra data:
+<ul>
+<ul>
+<li>copy your mass-spectra (DTA or MGF) file to this directory: <pre>tandem-windows-workshop/bin/</pre>
+<li>rename your mass-spectra file to: <pre>test_spectra</pre>
+<li>search the file against human sequence database by running: <pre>tandem.exe input-human.xml</pre>
+<li>search the file against human sequence database by running: <pre>tandem.exe input-mouse.xml</pre>
+<li>once the search has completed, you'll find a file in the same directory called <pre>output*.xml</pre> (where * is a time/date stamp)
+<li>this output file has all of the search results
+</ul>
+<li>The output*xml files contain lots of information about the peptides and proteins that have been identified
+
+
+</td>
+
+</tr>
+</table>
+
+
+<p></p>
+
+
+
+
+
+<h3><strike>Using the GPM Search Engine via the Web interface</strike></h3>
+<table>
+<tr>
+<td>
+<a href="http://h.thegpm.org/tandem/thegpm_tandem.html"><img align="left" alt="" width="200" height="200" src="images/xtandem_final.png" /></a>
+</td>
+
+<td>
+
+<ul>
+<li>UNFORTUNATELY THE ONLINE VERSION OF TANDEM IS NO LONGER AVAILABLE
+<li>Open the GPM search form <a href="http://h.thegpm.org/tandem/thegpm_tandem.html">here</a>
+<li>In the <strong>spectra </strong>field, click <strong>Browse</strong> and navigate to file of spectra (typically a DTA or MGF format peak list file)
+<li>Set other required parameters
+<ul>
+<li>Sequence search <strong>Database</strong> (typically the relevant ENSEMBL database)
+<li><strong>Modifications</strong>. Most data will not require additional modifications in this tutorial
+<li><strong>Predefined Methods</strong>. The default parameter will work for most of the tutorial, selecting the Ion Trap method is required uhere indicated. 
+</ul>
+<li>Click <strong>Find proteins</strong>
+<li>Once search is complete, <strong>Display</strong> gene/excel and <strong>go</strong> to download search results
+<li>Other views of the data are also possible on the GPM site. Click <strong>go</strong> tab for Gene Ontology analysis
+</ul>
+</td>
+</tr>
+</table>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

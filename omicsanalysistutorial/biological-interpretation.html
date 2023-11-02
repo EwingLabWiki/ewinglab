@@ -1,0 +1,190 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">ReadMes</a>
+    <ul>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I (DNMT1) interactions</a></li>
+    <li><a href="ms-study-7.html">DNMT1 mutant vs wild-type comparison</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="label-free-studies.html">Label-free quantification</a></li>
+    <li><a href="label-free-using-Scaffold.html">Label-free quant using Scaffold 1</a></li>
+    <li><a href="label-free-using-Scaffold-2.html">Label-free quant using Scaffold 2</a></li>
+    </ul>
+    </li>
+
+
+    <li><a href="#">Transcriptomics case studies</a>
+    <ul>
+    <li><a href="geo-case-studies.html">Gene Expression Omnibus (GEO) case studies</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Biological Interpretation of Omics Data</h3>
+<p class="WYSIWYG_NBNL">Having identified and quantified gene or protein expression across biological samples, what do these results mean in terms of the underlying biology? See refs on zotero <a href="https://www.zotero.org/groups/ewinglab/items/collectionKey/7SC6QS9M" class="TMLlink">here</a></p>
+<p>Questions that can be addressed include:</p>
+<ul>
+<li>What biological pathways or processes are perturbed in my samples?</li>
+<li>Are there specific classes of protein, in terms of their function that are enriched in my data?</li>
+<li>Do my data suggest new interactions between proteins or support known protein complexes?</li>
+</ul>
+<p>To address these questions, we can use several different online tools. The analysis of sets of proteins identified by proteomics experiments is very similar in concept to analysis of sets of perturbed genes in gene-expression experiments, or indeed the output of other 'omics techniques. The tools we use therefore are general purpose 'omics data analysis tools.</p>
+
+
+<h3>Analyzing annotation trends using Gene Ontology and GORILLA</h3>
+<p class="WYSIWYG_NBNL">There are many tools that calculate the significance of annotation trends - essentially the probability of observing the given number of genes belonging to a given class (function, pathway, process etc). In this tutorial, we make use of the Gene Ontology, and a convenient graphical tool for displaying those Gene Ontology categories that are significantly over- or under-represented in the proteomics (or transcriptomics) data. To find significant functions or pathways in our query data, we compare the query of genes to a 'background' set, typically the complete set of genes from the organism. Download complete lists of <a href="data/homo_sapiens-gene_symbols.txt">human</a> and <a href="data/mus_musculus-gene_symbols.txt">mouse</a> gene symbols. 
+
+<table>
+<tr>
+<td>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"><img width="400" height="100" src="images/GOrilla.png"></a>
+</td>
+
+<td align="left">
+<ul>
+<li>Choose organism
+<li>Choose the <strong>Two unranked lists of genes</strong> option
+<li>Choose <strong>ontology</strong>=all and search
+</ul>
+</td>
+</tr>
+
+</table>
+
+
+<h3>Analyzing functional molecular networks using STRING</h3>
+
+
+<table>
+
+<tr>
+
+<td align="left">
+<a href="http://string.embl.de/"><img align="left" width="200" height="200" src="images/string-interface.png"></a>
+</td>
+
+<td align="left">
+<ul>
+<li>Select <strong>multiple names</strong> tab for analysis of list
+<li>Select organism or <strong>auto-detect</strong>
+</ul>
+</td>
+
+
+</tr>
+
+</table>
+
+
+
+<h4>Other network and annotation analysis tools</h4>
+<ul>
+<li><a href="http://toppgene.cchmc.org/" class="TMLlink">Toppgene</a> functional analysis tool</li>
+<li><a href="https://david.ncifcrf.gov/" class="TMLlink">DAVID</a> tools at NCBI</li>
+<li><a href="http://www.genemania.org/" class="TMLlink">Gene Mania tool for functional network analysis</a></li>
+<li><a href="https://analysis.ingenuity.com/" class="TMLlink">Ingenuity pathways analysis</a> provides similar functionality, and also enables the analysis of lists of proteins (license required).</li>
+<li><a href="http://ophid.utoronto.ca/navigator/" class="TMLlink">Neat 3D interaction network visualisation</a></li>
+<li><a href="http://www.cytoscape.org/" class="TMLlink">Cytoscape</a> is an excellent tool for visualizing interaction networks with many <a href="http://tutorials.cytoscape.org" class="TMLlink">online tutorials</a>.<ol>
+<li>File-&gt;Import-&gt;Import Network from Web Services (retrieve pathways).</li>
+<li>Insert your favourite gene (APC, MRE11 ...) and select the pathways or networks.</li>
+<li>Re-arrange the network (Layout menu).</li>
+<li>Change the node and edge attributes </li>
+</ol></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">Proteomic data analysis guides</a>
+    <ul>
+
+    
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I interactions</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+   
+
+    
+    </ul>
+    </li>
+ 
+
+
+
+    <li><a href="#">Transcriptomic data analysis</a>
+    <ul>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3><strong>Synopsis</strong></h3>
+<p>Affinity-purification mass-spectrometry (AP-MS) is a powerful tool for the identifying components of protein complexes. We previously used AP-MS to perform a large-scale analysis of the human protein interactome (Ewing et al, 2007. Molecular Systems Biology). In this module, we analyze some of the data from this study. For each protein of interest, an epitope-tagged bait was expressed in human cells, and an antibody used to purify the interacting proteins. A challenge of AP-MS is to ensure that genuine interacting proteins can be distinguished from non-specific proteins. Control experiments are performed using cells with no epitope-tag.</p>
+
+<In this module, we analyze several AP-MS experiments using baits that are components of Eukaryotic Initiation Factor (EIF) protein complexes or components of the Proteasome. Eukaryotic Initiation Factors (EIFs) are proteins that regulate translation of mRNAs. There are quite a number of EIF factors in eukaryotic cells, and several sub-families exist. The goal of this study was to identify as many of the proteins associated with EIFs as possible, to more fully understand how these protein complexes work.</p>
+
+
+<h3><strong>Objectives</strong></h3>
+<p>The goal of this module is to demonstrate how AP-MS experiments can rapidly identify many components of protein complexes. Search the provided mass-spectrometry data and analyze the resulting proteins to map EIF and proteasome protein complexes and networks. Use the control data to identify non-specific interacting proteins in the data</p>
+<ul>
+  <li>Search the MS/MS spectra using Tandem</li>
+  <li>Compare proteins identified with the different baits to the proteins identified in the control experiments</li>
+  <li>Analyze the identified proteins in the STRING and GOrilla tools</li>
+</ul>
+
+<h3><strong>Questions</strong></h3>
+<ul>
+  <li>Which proteins can be excluded as contaminant or non-specific interactors based upon the control data?</li>
+  <li>How many proteasomal proteins were identified?</li>
+  <li>How many other EIF proteins were identified?</li>
+  <li>Does the STRING network analysis reveal any other proteins which might be components of the proteasome or of EIF protein complexes?
+</ul>
+
+<p>
+<p>
+
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>Data</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Notes</strong></p>
+	</td>
+      </tr>
+    <tr>
+      <td valign="top">
+
+	<p><strong>Raw Data</strong></p>
+
+<p> <a href="data/EIF4EBP1.concat.mgf">EIF4EBP1 (EIF) as bait</a>
+<p> <a href="data/EIF3S10.concat.mgf">EIF3S10 (EIF) as bait</a>
+<p> <a href="data/PSMD13.concat.mgf">PSMD13 (proteasome) as bait</a>
+<p> <a href="data/na_0_02FE20-21.mgf">No bait (control)</a>
+
+	<p><strong>Search Results</strong></p>
+
+na_0_02FE20-21.csv
+<p>	  <a href="data/protein-lists-tandem-search/EIF4EBP1.concat.csv">Identified proteins from EIF4EBP1 experiment</a>
+<p>	  <a href="data/protein-lists-tandem-search/EIF3S10.concat.csv">Identified proteins from EIF3S10 experiment</a>
+<p>	  <a href="data/protein-lists-tandem-search/PSMD13.concat.csv">Identified proteins from PSMD13 experiment</a>
+<p>	  <a href="data/protein-lists-tandem-search/na_0_02FE20-21.csv">Identified proteins from No bait (control) experiment</a>
+
+
+	</td>
+      <td valign="top">
+
+	<p>Taxonomy: <em>Homo sapiens</em></p>
+	</td>
+      </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+<h3><strong>References</strong></h3>
+<p>Ewing et al. Large-scale mapping of human protein-protein interactions by mass-spectrometry (<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/17353931" rel="nofollow">PubMed</a>).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

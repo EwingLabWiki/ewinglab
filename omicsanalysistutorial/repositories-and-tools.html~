@@ -1,0 +1,167 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">Proteomic data analysis guides</a>
+    <ul>
+
+    
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I interactions</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="ms-study-2.html">Tyranosaurus rex proteins!</a></li>
+
+    
+    </ul>
+    </li>
+ 
+
+
+
+    <li><a href="#">Transcriptomic data analysis</a>
+    <ul>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Repositories and tools for analysis of gene-expression data</h3>
+<ul>
+<li><a href="http://www.ncbi.nlm.nih.gov/geo/" target="_top">Gene Expression Omnibus</a> (a huge repository of large-scale gene-expression experiments)</li>
+<li><a href="http://www.informatics.jax.org/expression.shtml" target="_top">Mouse Gene Expression Database</a></li>
+<li><a href="https://www.oncomine.org/resource/login.html" target="_top">Oncomine</a> (database of gene-expression in different cancers)</li>
+<li><a href="http://www.chibi.ubc.ca/Gemma/home.html" target="_top">Gemma</a> (co-expression analysis to identify genes with similar expression profiles)</li>
+<li><a href="http://www.expression.cs.cmu.edu/" class="TMLlink">ExpressionBlast</a> (search for GEO experiments with similar differentially expressed genes)</li>
+</ul>
+
+<h3>Protein interaction databases</h3>
+<ul>
+<li><a href="http://thebiogrid.org" target="_top">BioGRID</a> database of physical and genetic interactions</li>
+<li><a href="http://www.ebi.ac.uk/intact/" target="_top">IntAct</a></li>
+</ul>
+
+
+<h3>Cancer and disease-associated mutations</h3>
+<ul>
+<li><b>Analyze mutation patterns of these genes in diverse cancers and diseases</b></li>
+<li>What diseases are the mutations associated with?</li>
+<li>In which cancer tumours are the mutations most prevalent?</li>
+<li>What are the consequences in terms of protein function of these mutations?<b><br /></b></li>
+<li>Resources
+<ul>
+<li><a href="http://cancer.sanger.ac.uk/cancergenome/projects/cosmic/" target="_top">Cosmic database of somatic mutations in cancer</a></li>
+<li><a href="http://www.hgmd.org/" target="_top">HGMD database</a></li>
+<li><a href="http://www.ncbi.nlm.nih.gov/omim" target="_top">OMIM database</a></li>
+</ul>
+</li>
+</ul>
+
+<h3>The Cancer Genome Atlas (TCGA) Project</h3>
+<ul>
+<li>TCGA is the most comprehensive attempt to understand different cancers using genomics techniques</li>
+<li><a href="http://cancergenome.nih.gov/" target="_top">http://cancergenome.nih.gov/</a></li>
+</ul>
+
+<h3>Gene Ontology and other useful sources of information</h3>
+<ul>
+<li><a href="http://geneontology.org/" target="_top">Gene Ontology</a></li>
+<li><a href="http://genecards.org/" target="_top">GeneCards</a></li>
+<li><a href="http://en.wikipedia.org/wiki/List_of_biological_databases" target="_top">Other biological databases</a></li>
+</ul>
+
+<h3>Additional software for this tutorial</h3>
+<ul>
+  <li>Download and install the <a href="http://insilicos-viewer.software.informer.com/" target="_blank"><span class="urllink">Insilicos</span> viewer</a> for mass-spectrometry data (windows only)</li>
+  <li>Download and install the <a href="http://www.proteomesoftware.com/Proteome_software_prod_Scaffold3_download-main.html" target="_blank">Scaffold</a> Software (for spectral count analysis)</li>
+  <li>Download and <a class="urllink" href="ftp://ftp.thegpm.org/projects/tandem/source/" rel="nofollow">install X!Tandem</a> (to run the GPM search engine from the command line)	  
+  <li>Download and unzip this <a href="ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz">human SwissProt fasta sequence file</a></li>
+  <li>Parameters, input and output are all <a class="urllink" href="http://www.thegpm.org/tandem/tandem_install_faq.html" rel="nofollow">specified in xml files</a> when running X!Tandem from the command line</li>
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

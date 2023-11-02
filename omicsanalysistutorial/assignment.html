@@ -1,0 +1,327 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">ReadMes</a>
+    <ul>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I (DNMT1) interactions</a></li>
+    <li><a href="ms-study-7.html">DNMT1 mutant vs wild-type comparison</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="label-free-studies.html">Label-free quantification</a></li>
+    <li><a href="label-free-using-Scaffold.html">Label-free quant using Scaffold 1</a></li>
+    <li><a href="label-free-using-Scaffold-2.html">Label-free quant using Scaffold 2</a></li>
+    </ul>
+    </li>
+
+
+    <li><a href="#">Transcriptomics case studies</a>
+    <ul>
+    <li><a href="geo-case-studies.html">Gene Expression Omnibus (GEO) case studies</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3><strong>Assignment overview</strong></h3>
+
+In this assignment you will use commonly-used tools and approaches for [transcript|prote]omics data analysis
+
+
+<h3><strong>Part I: Proteomics</strong></h3>
+<p>This study used shotgun proteomics to study the proteomes of mouse embryonic stem cell sub-cellular compartments.</p>
+<p class="vspace">Whole embryonic stem cell lysates were fractionated into nuclear and cytoplasmic components using low-speed centrifugation. We then used 1-Dimensional gel-based fractionation to separate the nuclear and cytoplasmic samples into 5 fractions each (Song et al, 2012). The data provided here correspond to one each of these fractions for the nuclear (Nuc) sample and the cytoplasmic (Cyto) samples.</p>
+
+
+<h3 class="vspace">Assignment Tasks</h3>
+<ol>
+<li><b>Data files and formats</b>
+<ul>
+<li>Download the MGF files, and write Bash or R code to determine how many spectra are in the Nuc file and how many in the Cyto file</li>
+<li>Write Bash or R code to count the total number of ions in each file, and to calculate the mean number of ions per spectrum</li>
+</ul>
+</li>
+<li><b>MS search engines</b>
+<ul>
+<li>Search the Nuc and Cyto files (against mouse sequence database) using the X! Tandem search engine.</li>
+<li>Search both files again, using a different (human) sequence database</li>
+<li>Download protein and peptide tables for each set of search results</li>
+<li>Write Bash or R code that computes the numbers of total and unique peptides and proteins</li>
+</ul>
+</li>
+<li><b>Biological Interpretation</b>
+<ul>
+<li>Using the GPM interface, analyze the Gene Ontology Cellular Compartments represented in the identified proteins</li>
+<li>Plot a graph comparing the Nuc and Cyto cellular compartments</li>
+<li>Discuss differences between the Nuc and Cyto results in terms of protein sub-cellular localization</li>
+<li>Using the protein tables downloaded above, analyze the biological trends represented in the data (pathways, processes etc) using DAVID</li>
+<li>Briefly (500 words maximum) discuss your findings and relate the analysis to the nuclear and cytoplasmic compartments that have been analysed</li>
+</ul>
+</li>
+</ol>
+
+<h3 class="vspace">Assignment Assessment</h3>
+
+<p>This assignment focuses on using tools for proteomic and transcriptomic analyses. The assignment will be assessed according to:</p>  
+
+
+<ul>
+<li>Your ability to use the tools correctly</li>
+<li>Providing supporting code or documentation for your analyses</li>
+<li>Your understanding and ability to interpret and discuss the results</li>
+</ul>
+
+<h3><strong>Data</strong></h3>     
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>Data Files</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Search engine settings</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Pre-computed search results</strong></p>
+	</td>
+      </tr>
+    <tr>
+      <td valign="top">
+	<ul>
+	  <li><a href="data/ESC_Nuc_fraction.mgf">MS/MS spectra from nuclear fraction</a></li>
+	  </ul>
+	<ul>
+	  <li><a href="data/ESC_Cyto_fraction.mgf">MS/MS spectra from cytoplasmic fraction</a></li>
+	  </ul>
+	</td>
+      <td valign="top">
+	<p>Database: SwissProt;</p>
+	<p>Taxonomy: <em>Mus musculus</em></p>
+	</td>
+      <td valign="top">
+	<p><a href="http://human.thegpm.org/thegpm-cgi/pgo.pl?path=/gpm/archive/GPM32100010966.xml" target="_blank">ESC_Nuc_fraction.mgf searched on X! Tandem</a></p>
+	<p><a href="http://human.thegpm.org/thegpm-cgi/plist.pl?path=/gpm/archive/GPM32100010967.xml" target="_blank">ESC_Cyto_fraction.mgf searched on X! Tandem</a></p>
+	</td>
+      </tr>
+    </tbody>
+</table>
+<h3><strong>References</strong></h3>
+<p>Song J, Saha S, Gokulrangan G, Tesar PJ, Ewing RM. DNA and chromatin modification networks distinguish stem cell pluripotent ground states. Molecular & cellular proteomics : MCP. 2012; 11(10):1036-47 (<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/22822199" rel="nofollow">PubMed</a>).</p>
+
+
+<p>&nbsp;</p>
+
+<h3><strong>Part II: Transcriptomics</strong></h3>
+
+B. The Gene Expression Omnibus is a huge repository of gene-expression studies. For this task you will perform statistical analysis
+on a given study in GEO and identify differentially expressed genes
+
+Download some data from GEO
+analyze using GEOQuery
+identify differentially expressed genes
+take those genes and run through DAVID r similar
+Analyze using Gene Ontology
+make conclusions
+
+
+<h3><strong>Part III: Databases and Resources</strong></h3>
+
+A. The BioGRID database is a repository of protein interaction information.
+In this task you will query the biogrid database, extract interacting partners for your query protein and construct a network
+Starting with one of the query proteins, search Biogrid, extract interactors. For selected interactors search again and add these 
+interactors to your list
+Filter the protein interactions according to the technique that was used to analyze them.
+Are there technique-specific interactors?
+Filter the PPIs according to confidence.
+
+Take your list of interacting proteins and visualize the network using cytoscape (use scripting or R to construct Sif)
+Compare this network to the information in STRING
+Are there more or less interactors...
+
+Compare this network to TMM network of co-expression, are any of the protein interacting partners also co-expressed?
+
+
+Use cytoscape
+load yeast alactose utilization network
+derive network properties (nodes, hubs, cluster)
+select 2 hubs - find out whether the two proteins are functionally related
+explore different modes of visualization
+use mcode to cluster - how many clusters
+find a hub node, identify and write about why it is important
+clustering coefficients
+
+
+
+EXTRA NOTES:
+
+PART 1 PROCESSING AND ANALYSING OMICS DATA
+
+A. Mass spectrometry proteomics data
+
+* A large survey of Affinity-Purification Mass-Spectrometry (AP-MS) experiments was performed in human cells (Ewing et al, 2007). 
+* Interacting proteins were identified for ~400 different bait proteins
+* In this task, you will take some of the raw data (mass spectra) from this study and identify corresponding proteins
+* Selected mass-spectrometry files are provided. Each of these files corresponds to a single affinity-purification mass-spectrometry experiment, and the bait protein used is indicated by the first part of the file name, which is the Gene Symbol. 
+* In addition, control experiments were performed so that non-specific interacting protens could be identified. These are the files with Gene Symbol "na".
+* Select one of the baits (EIF4A2, TCF1, CTNNBIP1, PSMD13) and search the mass-spectrometry files for that bait using Tandem X! search engine. In addition, search the control files.
+* Appropriate initial settings for the search engine are ...
+
+Take some proteomics data from a spreadsheet (epi / esc?) , compute statisitcs - identify differrential expression, do some analysis
+
+
+
+<br>
+Use scaffold with ap-ms file or protein expression file:
+using spectral counting identify those protens that are differential, contaminants, 
+look at a spectrum - find something out
+take the proteins and do some analysis
+look at peptides, what is % coverage, count number of peptides for a given protein, which peptide was identified the most - is it tryptic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

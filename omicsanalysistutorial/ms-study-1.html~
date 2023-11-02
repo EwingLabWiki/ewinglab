@@ -1,0 +1,164 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">Proteomic data analysis guides</a>
+    <ul>
+
+    
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I interactions</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+   
+
+    
+    </ul>
+    </li>
+ 
+
+
+
+    <li><a href="#">Transcriptomic data analysis</a>
+    <ul>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3><strong>Synopsis</strong></h3>
+<p>DNA methyltransferase I (<a class="urllink" href="http://www.genecards.org/cgi-bin/carddisp.pl?gene=DNMT1" rel="nofollow">DNMT1</a>) plays a key role in establishing and maintaining patterns of DNA methylation. Dysregulation of DNA methylation is associated with different kinds of cancer. The goal of this study was to identify DNMT1 interacting proteins with a view to understanding how DNMT1 is itself regulated.</p>
+<p class="vspace">We used a novel affinity purification-mass spectrometry (AP-MS) work flow that makes use of endogenously tagged cell-lines (Zhang et al, 2008) to identify DNMT1-interacting proteins. Epitope (FLAG) tagged DNMT1 protein was expressed in colorectal cancer (RKO) cells and DNMT1 protein complexes recovered using anti-FLAG antibody. Gel-free mass spectrometry proteomics was used to identify DNMT1-interacting proteins.</p>
+<p class="vspace">We identified ubiquitin-specific peptidase 7 (<a class="urllink" href="http://www.genecards.org/cgi-bin/carddisp.pl?gene=USP7" rel="nofollow">USP7</a>) as a DNMT1 interacting protein and subsequently showed that USP7 regulates DNMT1 stability through de-ubiquitination (thus protecting DNMT1 from proteasomal degradation) (Du et al, 2010).</p>
+
+<h3><strong>Tasks & Questions</strong></h3>
+<ul>
+  <li>Search the MS/MS spectra from the AP-MS experiment and its control experiment using Tandem
+  <li>How many proteins are identified?
+  <li>Are the DNMT1 and USP7 proteins identified?
+  <li>Using the spectral count data, which proteins are likely to be non-specific interactors or contaminants? [open the spectral count file using Scaffold]
+</ul>
+<ul>
+  <li>Analyze the identified proteins using STRING
+  <li>Are there any DNMT1-connected proteins in the STRING network? 
+</ul>
+
+
+<p>
+<p>
+
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>Data</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Notes</strong></p>
+	</td>
+      </tr>
+    <tr>
+      <td valign="top">
+
+<p>	  <a href="data/IP_DNMT1_selected.mgf">MS/MS spectra from AP-MS experiment (a filtered subset of the spectra are provided)</a>
+<p>       <a href="data/RKO_IP_13JUNE08.mgf" rel="nofollow">MS/MS spectra from Control experiment</a>
+
+	<p><strong>Search Results</strong></p>
+
+<p>	  <a href="data/protein-lists-tandem-search/IP_DNMT1_selected.csv">Identified proteins from AP-MS experiment</a>
+
+	</td>
+      <td valign="top">
+
+	<p>Taxonomy: <em>Homo sapiens</em></p>
+	</td>
+      </tr>
+
+<tr>
+  <td valign="top">
+    
+   <p> <a href="data/IP_DNMT1_09JULY08_Class_Project.sf3">Spectral count data</a></li>
+    
+  </td>
+
+  <td valign="top">
+    
+    <p>Install <a href="quantitation.html">Scaffold</a> software to open this file</li>
+    
+  </td>
+
+
+</tr>
+
+
+    </tbody>
+</table>
+<h3><strong>References</strong></h3>
+<p>Du et al. DNMT1 Stability Is Regulated by Proteins Coordinating Deubiquitination and Acetylation-Driven Ubiquitination. Science Signaling, 2010 (<a class="urllink" href="http://stke.sciencemag.org/cgi/content/abstract/sigtrans;3/146/ra80" rel="nofollow">paper</a>|<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/21045206" rel="nofollow">PubMed</a>).</p>
+<p class="vspace">Zhang et al. Epitope tagging of endogenous proteins for genome-wide ChIP-chip studies. Nat Methods, 2008 (<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/18176569" rel="nofollow">PubMed</a>)</p>
+
+
+

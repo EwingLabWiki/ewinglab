@@ -1,0 +1,245 @@
+<!-- BEGIN navigation bar and head. do not edit here, use perl script to add to all html files -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+
+ <nav id="primary_nav_wrap">
+    <ul>
+    <li class="current-menu-item"><a href="overview.html">Start here</a></li>
+
+    <li><a href="#">ReadMes</a>
+    <ul>
+    <li><a href="ms-data-peak-list-formats.html">MS peak list files</a></li>
+    <li><a href="using-search-engines.html">Using MS search engines</a></li>
+    <li><a href="quantitation.html">Spectral counts and quantitation</a></li>
+    <li><a href="gene-expression-omnibus.html">Gene Expression Omnibus</a></li>
+    <li><a href="biological-interpretation.html">Network and functional analyses</a>
+    <li><a href="repositories-and-tools.html">Links to online resources and tools</a>
+    </ul>
+
+
+
+    <li><a href="#">Proteomics case studies</a>
+    <ul>
+    <li><a href="ms-study-1.html">DNA Methyltransferase I (DNMT1) interactions</a></li>
+    <li><a href="ms-study-7.html">DNMT1 mutant vs wild-type comparison</a></li>
+    <li><a href="ms-study-5.html">Proteasome and EIF complexes</a></li>
+    <li><a href="ms-study-3.html">A DNA-damage protein complex</a></li>
+    <li><a href="ms-study-6.html">Embryonic stem cell proteomes</a></li>
+    <li><a href="label-free-studies.html">Label-free quantification</a></li>
+    <li><a href="label-free-using-Scaffold.html">Label-free quant using Scaffold 1</a></li>
+    <li><a href="label-free-using-Scaffold-2.html">Label-free quant using Scaffold 2</a></li>
+    </ul>
+    </li>
+
+
+    <li><a href="#">Transcriptomics case studies</a>
+    <ul>
+    <li><a href="geo-case-studies.html">Gene Expression Omnibus (GEO) case studies</a></li>
+    </ul>
+         
+       
+    </ul>
+    </li>
+
+
+
+    </ul>
+
+    </nav>
+    <br>
+    <br>
+
+<!-- navigation bar and head END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Understanding MS Search Engine Ouput</h3>
+
+<p>Mascot creates a Peptide Summary report unless there are more than 300 spectra, then&Acirc; a Protein Family Summary is produced. We will focus on the peptide summary. Mascot compares the observed spectra&Acirc; to a protein database to identify the most likely matches. Peptide matches are grouped together as protein hits. The most significant protein hits are listed at the start of the peptide summary.</p>
+<p><img alt="" height="257" src="images/mascot1.png" width="500" /></p>
+<p>For each protein match, Mascot calculates an overall Protein Score, which reflects the combined scores of all observed mass spectra that match the amino acid sequences within that protein. The higher the score, the more significant the match.</p>
+<p>Due to the background noise found in every experiment, Mascot calculates a &quot;threshold&quot; score representing a 5% confidence threshold. The threshold score will vary from experiment to experiment. In the peptide summary, a histogram illustrates the number of matches for a given score (shown in red). The area shaded green indicates matches that are below the 5% confidence threshold and are therefore considered non significant. Matches with the highest scores show strong significance.</p>
+<p><img alt="" height="600" src="images/mascot2.png" width="700" /></p>
+<p>In the summary table, information for each individual query is displayed along with the peptide match. Bold text indicates a significant match of a peptide to a protein. When the text is red, the peptide is a match to the top ranking protein. Therefore, red and bold text indicates a statistically strong assignment of a peptide to the highest ranking protein.</p>
+<table border="1" cellpadding="5" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+	<p><strong>Features</strong></p>
+	</td>
+      <td valign="top">
+	<p><strong>Description</strong></p>
+	</td>
+      </tr>
+    <tr>
+      <td valign="top">
+	<p>Matches</p>
+	</td>
+      <td valign="top">
+	<p>Indicates the number of spectra that matched the specific protein. A strong identification should have at least two matching queries.</p>
+	</td>
+      </tr>
+    <tr>
+      <td valign="top">
+	<p>Query Table</p>
+	</td>
+      <td valign="top">
+	<p>Shows the following information for each query:</p>
+	<ul>
+	  <li>Observed mass</li>
+	  <li>Experimental m/z value</li>
+	  <li>Experimental m/z transformed to a relative molecular mass</li>
+	  <li>Relative molecular mass calculated from the matched peptide sequence</li>
+	  <li>Difference (error) between the experimental and calculated masses</li>
+	  <li>Number of missed cleavage sites</li>
+	  <li>Ions score - If there are duplicate matches to the same peptide, then the lower scoring matches are shown in brackets.</li>
+	  <li>Expectation value for the peptide match. (The number of times we would expect to obtain an equal or higher score, purely by chance. The lower this value, the more significant the result).</li>
+	  <li>Rank of the ions match, (1 to 10, where 1 is the best match).</li>
+	  <li>A letter U if the peptide sequence is unique to the protein hit</li>
+	  <li>Sequence of the peptide. The residues that bracket the peptide sequence in the protein are also shown, delimited by periods. If the peptide forms the protein terminus, then a dash is shown instead.</li>
+	  <li>Any variable modifications found in the peptide</li>
+	  </ul>
+	
+	</td>
+      </tr>
+    </tbody>
+</table>
+
+<p>For detailed information on the peptide summary report, go to the <a href="http://www.matrixscience.com/help/msms_summaries_help.html#PEPSUM#PEPSUM" target="_blank">Matrix</a> website.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
