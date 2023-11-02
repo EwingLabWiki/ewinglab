@@ -92,97 +92,30 @@
 
 
 
+<h3><strong>Overview</strong></h3>
+
+<p>There are several different methods for quantifying peptides and proteins in shotgun proteomics experiments. Broadly, these can be divided into those techniques which label the peptides or proteins in samples to be compared (e.g. TMT, iTRAQ, SILAC) and label-free techniques. Label-free techniques are those techniques in which each sample is run as a separate mass-spectrometry run and no labeling of peptides proteins is required. Label-free techniques include 'spectral counting' in which the quantification for each peptide is determined from the number of times that fragmentation of matching spectra is observed, and techniques which measure the total ion current associated with each peptide. The latter approach is very commonly used, and on this page some example outputs from such studies are provided.</p>
+
+<p>Typically, there are several output files associated with a label-free study. First, quantifications of all of the peptides observed in the study (Step 1). Second, by matching these peptides to proteins, quantification of all of the identified proteins in a study (Step 2). Finally, merging of the proteins from each sample across the study, so that the protein quantifications can be compared across the study (Step 3). See below for example files from each of these steps.</p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3><strong>Study Synopsis</strong></h3>
-
-<p class="vspace">This study used shotgun proteomics to study the proteomes of mouse embryonic stem cell sub-cellular compartments. Whole embryonic stem cell lysates were fractionated into nuclear and cytoplasmic components using low-speed centrifugation. We then used 1-Dimensional gel-based fractionation to separate the nuclear and cytoplasmic samples into 5 fractions each (Song et al, 2012). The data provided here correspond to one each of these fractions for the nuclear (Nuc) sample and the cytoplasmic (Cyto) samples.</p>
-
-<h3><strong>Tasks & Questions</strong></h3>
-
-
-<ul>
-  <li>Search the Nuclear and Cytosolic MS/MS spectra using Tandem search engine</li>
-  <li>Compare the sets of proteins identified for the Nuclear and Cytosolic samples using GOrilla 
-  <li>Do the identified Gene Ontology terms suggest enrichment of Nuclear and Cytosolic proteins in the Nuc and Cyto samples?
-</ul>
-
-
-<p></p>
 
 <h3><strong>Data</strong></h3>     
+
 <table border="1" cellpadding="5" cellspacing="0" width="100%">
   <tbody>
     <tr>
       <td valign="top">
-	<p><strong>MS/MS data Files (peak lists)</strong></p>
-	</td>
-      <td valign="top">
-	<p><strong>Search engine settings</strong></p>
-	</td>
 
+	<p><strong>Quantification Data Examples</strong></p>
 
-      </tr>
-    <tr>
-      <td valign="top">
-
-	<p><strong>Raw Data</strong></p>
 
 	<ul>
-	  <li><a class="urllink" href="data/ESC_Nuc_fraction.mgf">MS/MS spectra from nuclear fraction</a></li>
-	  <li><a class="urllink" href="data/ESC_Cyto_fraction.mgf">MS/MS spectra from cytoplasmic fraction</a></li>
-	  </ul>
-
-	<p><strong>Search Results</strong></p>
-	<ul>
-
-	  <li><a class="urllink" href="data/protein-lists-tandem-search/ESC_Nuc_fraction.csv">Identified proteins from nuclear fraction</a></li>
-	  <li><a class="urllink" href="data/protein-lists-tandem-search/ESC_Cyto_fraction.csv">Identified proteins from cytoplasmic fraction</a></li>
-
+	  <li><a class="urllink" href="data/Peptide-Hi3-example.csv">Quantified Peptides single sample (Step 1)</a></li>
+	  <li><a class="urllink" href="data/Protein-Hi3-example.csv">Quantified Proteins single sample (Step 2)</a></li>
+	  <li><a class="urllink" href="data/MergedFinalProt_GSK3-study-6-samples.csv">Quantified Proteins merged multiple samples (Step 3)</a></li>
 	</ul>
 
-	</td>
-      <td valign="top">
-	<p>Taxonomy: <em>Mus musculus</em></p>
 	</td>
    
 
@@ -191,19 +124,15 @@
 </table>
 
 <h3><strong>References</strong></h3>
-<p>Song J, Saha S, Gokulrangan G, Tesar PJ, Ewing RM. DNA and chromatin modification networks distinguish stem cell pluripotent ground states. Molecular & cellular proteomics : MCP. 2012; 11(10):1036-47 (<a class="urllink" href="http://www.ncbi.nlm.nih.gov/pubmed/22822199" rel="nofollow">PubMed</a>).</p>
+<p>Relative and Absolute Quantitation in Mass Spectrometry-Based Proteomics (<a class="urllink" href="https://pubmed.ncbi.nlm.nih.gov/29894226/" rel="nofollow">PubMed</a>)</p>
+<p> Quantitative mass spectrometry in proteomics: a critical review (<a class="urllink" href="https://pubmed.ncbi.nlm.nih.gov/17668192/" rel="nofollow">PubMed</a>)</p>
 
 
 <p>&nbsp;</p>
 
 
 
-
-
-
-
-
-
+<
 
 
 

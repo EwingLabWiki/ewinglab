@@ -86,38 +86,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3>Mass-spectrometry peak list files</h3>
-
-<p>Data in this tutorial is mainly provided in the form of peak list files. Two peak list formats are commonly used, DTA, and MGF. A comprehensive description of these file formats ia available <a href="http://www.matrixscience.com/help/data_file_help.html">here</a>. Both DTA and MGF are simple text based formats containing the mass spectra that will be used by the search engine to identify peptides and proteins. 
-
-<p>Click <a class="urllink" href="data/example.dta" rel="nofollow">here</a> for an example <b>DTA</b> file. Each spectrum begins with the parent mass and charge and is followed by a series of pairs of numbers (fragment ion masses and their intensity)
-
-<p>Click <a class="urllink" href="data/example.mgf" rel="nofollow">here</a> for an example <b>MGF</b> file. Each spectrum is recorded between BEGIN IONS and END IONS
-
-
-
 <h3>Mass-spectrometry Raw Data and File Formats</h3>
 <p>There are many different file formats for raw MS data, depending upon the manufacturer of the instrument. Several open, universal data formats for MS data have been developed, such as <a href="http://www.ncbi.nlm.nih.gov/pubmed/15529173" rel="nofollow" target="_blank">mzXML</a> and the newer <a href="http://www.psidev.info/index.php?q=node/80" rel="nofollow" target="_blank">mzML</a>. Typically, mass spectrometers do not generate data in these formats directly, but raw data can be converted to open formats using vendor-specific software.</p>
 <h3>About mzXML Files</h3>
@@ -147,6 +115,7 @@
       </ul>
     </li>
 </ol>
+
 <h2>Preparing MS data for Analysis</h2>
 <p>To simplify the identification process, mzXML files are often processed to simpler ASCII representations of the data, known as peak lists. There are several different peak list file formats (explained <a href="http://www.matrixscience.com/help/data_file_help.html" target="_blank">here)</a>. We will use the Mascot Generic Format (MGF) to analyze for peptides and proteins. The corresponding MGF file for the mzXML data file visualized above is <a href="data/DP00570_F02.mgf" target="_blank">here</a>.</p>
 <ul>
@@ -156,52 +125,20 @@
       </ul>
     </li>
 </ul>
+
+
 <p>In the next section, we take peak list files and search sequence databases for matching peptides.</p>
 <table border="0" cellpadding="0" cellspacing="0" width="90%">
   <tbody>
     <tr>
       <td bgcolor="#e3e3e3" valign="top">
 	<h3>Further Analyses</h3>
-	<p>How many MS/MS spectra are represented in the MGF file? Compare this number to the number of scans represented in the mZXML file.</p>
+	<p>To get familiar with file formats, compare the number of MS/MS spectra in an MGF file and its corresponding mZXML file.</p>
 	</td>
       </tr>
     </tbody>
 </table>
 <p>&nbsp;</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
