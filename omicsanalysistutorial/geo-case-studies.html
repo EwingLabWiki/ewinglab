@@ -76,43 +76,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h2>Case Studies (GEO Datasets) from GEO</h2>
 
 <p>
   
 <p>Here we make use of the Gene Expression Omnibus (GEO) to provide example transcriptomics datasets for analysis. Each of the entries in the table below is a GEO Dataset - a curated Gene Expression study. Here are some tasks to familiarize yourself with respect to basis analyses of this type of data:
 
-<li>Select a GEO dataset</li>
-<li>Each CSV file is a matrix (gene x sample) of gene-expression data.</li>
-<li>From the sample descriptions, and the experimental design described on the GEO dataset web-page, select a group of samples to perform differential gene-expression analysis (for example this could be comparing control vs treated samples). Note that this may be a subset (or all of the samples in the file)</li> 
-<li>For each gene, calculate a fold-change (ratio) ratio between your sample groups (e.g. treated/control) and express this as logarithm base 2</li>
-<li>For each gene, you could also calculate a p-value (e.g. T-test) to test whether your sample groups are statistically significantly different</li>
-<li>Sort the data according to the calculated ratio (and/or p-value), and identify those genes where log2 ratio &gt; 1 or log 2 ratio &lt; -1 or p &lt; 0.05</li>
-<li>For the differential genes, use gene set enrichment and/or functonal network analysis to uncover potential pathways or processes that are represented.</li>
-</ul>
-
+  <ul>
+  <li>Select a GEO Dataset</li>
+  <li>For each GEO Dataset, you can work with the online tools provided by GEO for analysis, or your can work with the raw data provided in the links below</li>
+  <li>If using the online tools, you will see that you can explore the clustered gene-expression profiles associated with each GEO Dataset. By clicking on the GEO Series link you can also perform differential gene expression analysis using the 'Analyze with GEO2R' button</li>
+  <li>To work with the raw data, each of the CSV files listed in the table is a matrix (gene x sample) of gene-expression data.</li>
+  <ul>
+    <li>From the sample descriptions, and the experimental design described on the GEO Dataset web-page, select a group of samples to perform differential gene-expression analysis (for example this could be comparing control vs treated samples). Note that this may be a subset (or all of the samples in the file)</li> 
+    <li>For each gene, calculate a fold-change (ratio) ratio between your sample groups (e.g. treated/control) and express this as logarithm base 2</li>
+    <li>For each gene, you could also calculate a p-value (e.g. T-test) to test whether your sample groups are statistically significantly different</li>
+    <li>Sort the data according to the calculated ratio (and/or p-value), and identify those genes where log2 ratio &gt; 1 or log 2 ratio &lt; -1 or p &lt; 0.05</li>
+    <li>For the differential genes, use Gene Set Enrichment and/or functonal network analysis to uncover potential pathways or processes that are represented.</li>
+  </ul>
+  </ul>
 <p>
 <p>
 
