@@ -10,8 +10,8 @@ Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/1-cKzpqgKU65cA/bibl
 
 **Selected / recent publications**
 *    **Multi-omics analysis reveals key immunogenic signatures induced by oncolytic Zika virus infection of paediatric brain tumour cells** _www.biorxiv.org_, 2024 ([biorxiv](https://www.biorxiv.org/content/10.1101/2024.11.28.625843v1))
-*    **Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I** _www.biorxiv.org_, 2024 ([biorxiv](https://www.biorxiv.org/content/10.1101/2024.09.17.613406v1))
-*    **Integrative transcriptomic and proteomic meta-analysis of Zika viral infection reveals potential mechanisms for oncolytic therapy in neuroblastoma** _www.biorxiv.org_, 2022 ([f1000 research](https://f1000research.com/articles/12-719))
+*    **Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I** , 2024 ([biorxiv](https://www.biorxiv.org/content/10.1101/2024.09.17.613406v1))
+*    **Integrative transcriptomic and proteomic meta-analysis of Zika viral infection reveals potential mechanisms for oncolytic therapy in neuroblastoma** , 2022 ([f1000 research](https://f1000research.com/articles/12-719))
 *    **TransformerGO: Predicting protein-protein interactions by modelling the attention between sets of gene ontology terms** _Bioinformatics_, 2022 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/35176146))
 *   **Proteomic characterization of GSK3β knockout shows altered cell adhesion and metabolic pathway utilisation in colorectal cancer cells** _PLOS ONE_, 2021 ([full text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246707))
 *    **3-month, 6-month, 9-month, and 12-month respiratory outcomes in patients following COVID-19-related hospitalisation: a prospective study** _Lancet Respir Med_, 2021 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/33964245))
