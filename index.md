@@ -9,6 +9,7 @@ We work in the area of cancer systems biology. Our goal is to understand the mol
 Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/1-cKzpqgKU65cA/bibliography/public/)
 
 **Selected / recent publications**
+*    **Knockdown Proteomics Reveals USP7 as a Regulator of Cell-Cell Adhesion in Colorectal Cancer via AJUBA**, _Molecular and Cellular Proteomics_, 2024 ([full text](https://www.mcponline.org/article/S1535-9476(24)00168-3/fulltext))
 *    **Multi-omics analysis reveals key immunogenic signatures induced by oncolytic Zika virus infection of paediatric brain tumour cells**, 2024 ([biorxiv](https://www.biorxiv.org/content/10.1101/2024.11.28.625843v1))
 *    **Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I**, 2024 ([biorxiv](https://www.biorxiv.org/content/10.1101/2024.09.17.613406v1))
 *    **Integrative transcriptomic and proteomic meta-analysis of Zika viral infection reveals potential mechanisms for oncolytic therapy in neuroblastoma**, 2022 ([f1000 research](https://f1000research.com/articles/12-719))
