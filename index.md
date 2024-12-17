@@ -6,7 +6,7 @@ subtitle:
 
 We work in the area of cancer systems biology. Our goal is to understand the molecular networks that drive tumour formation in cancers such as colorectal, lung and brain. We use proteomics/multi-omics and data-driven/bioinformatics approaches to define these networks and to uncover the molecular mechanisms that underlie human disease. Specific and current interests include identifying new components of the Wnt signaling network in colorectal cancer, and mapping the interactions between the Zika virus and human brain tumour cells with a view to using Zika as an oncolytic virotherapy.
 
-Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/1-cKzpqgKU65cA/bibliography/public/)
+Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliography/public/)
 
 **Selected / recent publications**
 *    **Knockdown Proteomics Reveals USP7 as a Regulator of Cell-Cell Adhesion in Colorectal Cancer via AJUBA**, _Molecular and Cellular Proteomics_, 2024 ([full text](https://www.mcponline.org/article/S1535-9476(24)00168-3/fulltext))
