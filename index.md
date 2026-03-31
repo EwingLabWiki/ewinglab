@@ -9,6 +9,7 @@ We work in the area of cancer systems biology. Our goal is to understand the mol
 Publications on [PubMed](https://www.ncbi.nlm.nih.gov/myncbi/16spgtW8Obc/bibliography/public/)
 
 **Selected / recent publications**
+*    **Artificial intelligence in multimodal data analysis for cancer survival prediction**, _Progress in Molecular Biology and Translational Science_, 2026 ([pdf](data/uploads/Saadah-et-al-PMBTS-2026.pdf))
 *    **Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I**, _PLoS One_, 2025 ([full text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335726))
 *    **Multi-omics analysis reveals key immunogenic signatures induced by oncolytic Zika virus infection of paediatric brain tumour cells**, _Scientific Reports_, 2025 ([full text](https://www.nature.com/articles/s41598-025-97804-8))
 *    **Integrated interactome, proteomic and functional analyses reveal molecular pathways driving L1TD1-induced aggressiveness in CNS embryonal tumor cells**, _FEBS Letters_, 2025 ([full text](https://febs.onlinelibrary.wiley.com/doi/10.1002/1873-3468.70002))
