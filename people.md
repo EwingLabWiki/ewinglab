@@ -8,7 +8,7 @@ subtitle:
 
 ![Rob Ewing](http://www.ewinglab.org/data/uploads/ewinglab-tree-collage.png)
 
-**Dr Rob Ewing** A love of computer programming got me interested in bioinformatics following my D.Phil in plant molecular genetics. I worked as a postdoc in the CNRS in France and at the Carnegie Institute/Stanford University, developing computational methods to analyze large-scale 'omics datasets. I also spent several years applying these techniques in the biotech sector, working at Incyte Genomics in California and at MDS Proteomics in Toronto. Current scientific interests are focused on using proteomic and computational methods to map protein-protein interactions networks relevant to human disease and development
+**Prof Rob Ewing** A love of computer programming got me interested in bioinformatics following my D.Phil in plant molecular genetics. I worked as a postdoc in the CNRS in France and at the Carnegie Institute/Stanford University, developing computational methods to analyze large-scale 'omics datasets. I also spent several years applying these techniques in the biotech sector, working at Incyte Genomics in California and at MDS Proteomics in Toronto. My current scientific interests are focused on understanding molecular networks and disease - both using proteomic and similar methods as well as exploiting new machine-learning/AI approaches. We apply these methods in the area of cancer systems biology - particularly brain tumours where we are exploring the Zika virus as a potential oncolytic virotherapy.
 
 
 ### Lab alumni (University of Southampton)
