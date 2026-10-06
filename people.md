@@ -13,10 +13,15 @@ subtitle:
 ### Recent PhD graduates of our group
 
 **Dr Yi Sui** Postdoctoral Fellow
+
 **Dr Matt Sherwood** Postdoctoral Fellow (Queen Mary University of London)
+
 **Dr Brandon Coke** Bioinformatician, ApConix
+
 **Dr Ahood Aledian** Assistant Professor at Al-Imam Abdulrahman Bin Faisal University
+
 **Dr Steve John** Project Manager, Cancer Research UK
+
 **Dr Emily Bowler** Senior Scientific Database Curator, European Bioinformatics Institute
 
 ### Lab alumni (University of Southampton)
