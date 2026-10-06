@@ -10,6 +10,14 @@ subtitle:
 
 **Prof Rob Ewing** A love of computer programming got me interested in bioinformatics following my D.Phil in plant molecular genetics. I worked as a postdoc in the CNRS in France and at the Carnegie Institute/Stanford University, developing computational methods to analyze large-scale 'omics datasets. I also spent several years applying these techniques in the biotech sector, working at Incyte Genomics in California and at MDS Proteomics in Toronto. My current scientific interests are focused on understanding molecular networks and disease - both using proteomic and similar methods as well as exploiting new machine-learning/AI approaches. We apply these methods in the area of cancer systems biology - particularly brain tumours where we are exploring the Zika virus as a potential oncolytic virotherapy.
 
+### Recent PhD graduates of our group
+
+**Dr Yi Sui** Postdoctoral Fellow
+**Dr Matt Sherwood** Postdoctoral Fellow (Queen Mary University of London)
+**Dr Brandon Coke** Bioinformatician, ApConix
+**Dr Ahood Aledian** Assistant Professor at Al-Imam Abdulrahman Bin Faisal University
+**Dr Steve John** Project Manager, Cancer Research UK
+**Dr Emily Bowler** Senior Scientific Database Curator, European Bioinformatics Institute
 
 ### Lab alumni (University of Southampton)
 
